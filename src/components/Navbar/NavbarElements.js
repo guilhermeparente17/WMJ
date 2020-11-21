@@ -6,11 +6,11 @@ export const NavbarContainer = styled.div`
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    padding: 15px;;
+    padding: 15px;
     background: linear-gradient(to right, #006400, #083B05);
     z-index: 999;
     
-    
+
 `
 
 export const NavbarLink = styled(LinkS)`

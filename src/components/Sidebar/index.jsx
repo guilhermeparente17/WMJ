@@ -1,8 +1,10 @@
 import React from 'react'
-import { SidebarContainer, Icon } from './SidebarElements'
+import { SidebarContainer, 
+    Icon
+} from './SidebarElements'
 import { FaTimes } from 'react-icons/fa'
 
-const index = ({isOpen, toggle}) => {
+const index = ({ isOpen, toggle }) => {
     return (
         <>
             <SidebarContainer isOpen={isOpen} >
@@ -10,6 +12,7 @@ const index = ({isOpen, toggle}) => {
                     <FaTimes />
                 </Icon>
             </SidebarContainer>
+
         </>
     )
 }
