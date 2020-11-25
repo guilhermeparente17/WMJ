@@ -21,7 +21,7 @@ const Navbar = ({ toggle}) => {
                     <NavbarItem><NavbarLink to="/">Contato</NavbarLink></NavbarItem>
                 </NavBarList>
                 <NavButton>
-                    <Buttom to="/">Faça um orçamento</Buttom>
+                    <Buttom to="/">Faça um orçamentossss</Buttom>
                 </NavButton>
                 <MobileIcon onClick={toggle}>
                     <FaBars />
