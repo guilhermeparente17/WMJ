@@ -3,7 +3,7 @@ import {Link as LinkS} from 'react-scroll'
 
 export const SidebarContainer = styled.div`
     display: grid;
-    background: #083B05;
+    background: linear-gradient(to top, #006400, #083B05);
     position: absolute;
     width: 100%;
     height: 100%;

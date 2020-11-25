@@ -4,7 +4,7 @@ import {Link as LinkS} from 'react-scroll'
 export const NavbarContainer = styled.div`
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     padding: 15px;
     background: linear-gradient(to right, #006400, #083B05);
@@ -15,9 +15,13 @@ export const NavbarContainer = styled.div`
 
 export const NavbarLink = styled(LinkS)`
     color: #fff;
-    font-size: 1.2rem;
+    font-size: 1.7rem;
     font-family: 'Lato', sans-serif;
     cursor: pointer;
+
+    &:hover{
+        color: #E8D4D1;
+    }
 `
 
 export const NavbarImage = styled.img`
@@ -64,4 +68,8 @@ export const Buttom = styled(LinkS)`
         background: #fff;
         color: #000;
     }
+`
+
+export const NavButton = styled.div`
+    color: #fff;
 `
