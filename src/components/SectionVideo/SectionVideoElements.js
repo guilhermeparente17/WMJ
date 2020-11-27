@@ -65,7 +65,7 @@ export const SectionVideoH1 = styled.h1`
     }
 
     @media screen and (max-width: 480px){
-        font-size: 32px;
+        font-size: 34px;
     }
 `
 
@@ -82,6 +82,6 @@ export const SideVideoP = styled.p`
     }
 
     @media screen and (max-width: 480px){
-        font-size: 28px;
+        font-size: 18px;
     }
 `

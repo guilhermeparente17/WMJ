@@ -12,6 +12,7 @@ export const NavbarContainer = styled.div`
     position: sticky;
     top:0;
     z-index:10;
+    box-shadow: 0px 5px 50px #000000;
 
     @media screen and (max-width: 740px){
         justify-content: space-between;
