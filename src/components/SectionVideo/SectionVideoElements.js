@@ -6,7 +6,7 @@ export const SectionVideoContainer = styled.div`
     color: #FFF;
     justify-content:center;
     padding: 0 30px;
-    height: 800px;
+    height: 550px;
     position: relative;
     z-index:1;
 
@@ -46,7 +46,7 @@ export const VideoBG = styled.video`
 export const SideVideoContainer = styled.div`
     z-index: 3;
 
-    margin-top: 180px;
+    margin-top: 110px;
     max-width:1200px;
     position: absolute;
     padding: 8px 24px;

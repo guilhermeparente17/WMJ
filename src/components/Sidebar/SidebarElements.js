@@ -6,7 +6,7 @@ export const SidebarContainer = styled.div`
     background: linear-gradient(to top, #006400, #083B05);
     position: absolute;
     width: 100%;
-    height: 100%;
+    height: 100vh;
     top: 0;
     right: 0;
     transition: 0.2s ease-in-out;

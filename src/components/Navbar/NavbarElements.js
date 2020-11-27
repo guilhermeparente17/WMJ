@@ -7,7 +7,8 @@ export const NavbarContainer = styled.div`
     justify-content: space-around;
     align-items: center;
     padding: 15px;
-    background: linear-gradient(to right, #006400, #083B05);
+    /*background: linear-gradient(to right, #006400, #083B05); */
+    background: #083B05;
     z-index: 999;
     position: sticky;
     top:0;
