@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import Navbar from '../components/Navbar/index'
 import Sidebar from '../components/Sidebar/index'
+import SectionVideo from '../components/SectionVideo'
 
 const Home = () => {
 
@@ -15,6 +16,7 @@ const Home = () => {
         <div>
             <Navbar isOpen={isOpen} toggle={toggle}/>
             <Sidebar isOpen={isOpen} toggle={toggle} />
+            <SectionVideo />
         </div>
     )
 }

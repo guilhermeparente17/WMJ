@@ -9,6 +9,9 @@ export const NavbarContainer = styled.div`
     padding: 15px;
     background: linear-gradient(to right, #006400, #083B05);
     z-index: 999;
+    position: sticky;
+    top:0;
+    z-index:10;
 
     @media screen and (max-width: 740px){
         justify-content: space-between;
