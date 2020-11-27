@@ -5,7 +5,6 @@ export const SectionVideoContainer = styled.div`
     display: flex;
     color: #FFF;
     justify-content:center;
-    align-items: center;
     padding: 0 30px;
     height: 800px;
     position: relative;
@@ -18,7 +17,7 @@ export const SectionVideoContainer = styled.div`
         left:0;
         right:0;
         bottom:0;
-        background: linear-gradient(180deg, rgba(0,0,0,0.4) 30%,
+        background: linear-gradient(180deg, rgba(0,0,0,0.5) 30%,
         rgba(0,0,0,0.8) 100%),
         linear-gradient(180deg, rgba(0,0,0,0.2) 0%, transparent 100%);
         z-index:2;
@@ -42,4 +41,47 @@ export const VideoBG = styled.video`
     -o-object-fit:cover;
     object-fit:cover;
     background: #232a34;
+`
+
+export const SideVideoContainer = styled.div`
+    z-index: 3;
+
+    margin-top: 180px;
+    max-width:1200px;
+    position: absolute;
+    padding: 8px 24px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+`
+
+export const SectionVideoH1 = styled.h1`
+    color: #fff;
+    font-size: 68px;
+    text-align: center;
+    text-shadow: 4px 2px 4px #000000;
+    @media screen and (max-width: 760px){
+        font-size: 40px;
+    }
+
+    @media screen and (max-width: 480px){
+        font-size: 32px;
+    }
+`
+
+export const SideVideoP = styled.p`
+    margin-top: 24px;
+    color: #FFF;
+    text-shadow: 2px 2px 4px #000000;
+    font-size: 24px;
+    text-align: center;
+    max-width: 600px;
+
+    @media screen and (max-width: 760px){
+        font-size: 24px;
+    }
+
+    @media screen and (max-width: 480px){
+        font-size: 28px;
+    }
 `
